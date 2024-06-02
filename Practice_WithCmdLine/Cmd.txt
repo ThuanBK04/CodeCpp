@@ -1,0 +1,16 @@
+- The current position: C:\Users\NGUYEN DUC THUAN\Desktop>
++ Navigate to D:
+	D:
++ Navigate to a specific directory
+	cd D:\11_LaptrinhCpp\CodeCpp\Practice_WithCmdLine\Project1
+- Cmd used to compile:
+	g++ -Wall -std=c++14 main.cpp
+Wall: turn warning
+- Run excecute file:
+	NameofFileExcecute
+- Change the name of excecute file:
+	g++ -Wall -std=c++14 main.cpp -o main.exe
+- Clear the screen of cmd line:
+	cls
+- See all file in the current folder
+	dir
