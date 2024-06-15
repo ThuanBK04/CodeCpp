@@ -2,19 +2,22 @@
 <CodeLite_Workspace Name="Section7_ArrayAndVector" Database="" Version="10000">
   <Project Name="Declaring_Initialzing_Array" Path="Declaring_Initialzing_Array/Declaring_Initialzing_Array.project" Active="No"/>
   <Project Name="Vector" Path="Vector/Vector.project" Active="No"/>
-  <Project Name="Access_and_modify_elements" Path="Access_and_modify_elements/Access_and_modify_elements.project" Active="Yes"/>
+  <Project Name="Access_and_modify_elements" Path="Access_and_modify_elements/Access_and_modify_elements.project" Active="No"/>
+  <Project Name="Challenge" Path="Challenge/Challenge.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
       <Project Name="Declaring_Initialzing_Array" ConfigName="Debug"/>
       <Project Name="Vector" ConfigName="Debug"/>
       <Project Name="Access_and_modify_elements" ConfigName="Debug"/>
+      <Project Name="Challenge" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
       <Project Name="Declaring_Initialzing_Array" ConfigName="Release"/>
       <Project Name="Vector" ConfigName="Release"/>
       <Project Name="Access_and_modify_elements" ConfigName="Release"/>
+      <Project Name="Challenge" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
