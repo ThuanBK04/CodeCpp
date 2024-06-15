@@ -9,12 +9,14 @@
       <Project Name="Project1" ConfigName="Debug"/>
       <Project Name="Project2" ConfigName="Debug"/>
       <Project Name="Challenge_Section4" ConfigName="Debug"/>
+      <Project Name="Section6_Variables_Constants" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
       <Project Name="Project1" ConfigName="Release"/>
       <Project Name="Project2" ConfigName="Release"/>
       <Project Name="Challenge_Section4" ConfigName="Release"/>
+      <Project Name="Section6_Variables_Constants" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
