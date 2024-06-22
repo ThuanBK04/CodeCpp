@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="StatementAndOperator" Database="" Version="10000">
+  <Project Name="IncreAndDecreOperator" Path="IncreAndDecreOperator/IncreAndDecreOperator.project" Active="No"/>
+  <Project Name="MixExpressionAndConversion" Path="MixExpressionAndConversion/MixExpressionAndConversion.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug">
+      <Environment/>
+      <Project Name="IncreAndDecreOperator" ConfigName="Debug"/>
+      <Project Name="MixExpressionAndConversion" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release">
+      <Environment/>
+      <Project Name="IncreAndDecreOperator" ConfigName="Release"/>
+      <Project Name="MixExpressionAndConversion" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
