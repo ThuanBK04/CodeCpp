@@ -4,7 +4,8 @@
   <Project Name="Range-based_For_Loop" Path="Range-based_For_Loop/Range-based_For_Loop.project" Active="No"/>
   <Project Name="While_Loop" Path="While_Loop/While_Loop.project" Active="No"/>
   <Project Name="do_while" Path="do_while/do_while.project" Active="No"/>
-  <Project Name="Nested_Loop" Path="Nested_Loop/Nested_Loop.project" Active="Yes"/>
+  <Project Name="Nested_Loop" Path="Nested_Loop/Nested_Loop.project" Active="No"/>
+  <Project Name="Challenge" Path="Challenge/Challenge.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
@@ -13,6 +14,7 @@
       <Project Name="While_Loop" ConfigName="Debug"/>
       <Project Name="do_while" ConfigName="Debug"/>
       <Project Name="Nested_Loop" ConfigName="Debug"/>
+      <Project Name="Challenge" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -21,6 +23,7 @@
       <Project Name="While_Loop" ConfigName="Release"/>
       <Project Name="do_while" ConfigName="Release"/>
       <Project Name="Nested_Loop" ConfigName="Release"/>
+      <Project Name="Challenge" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
