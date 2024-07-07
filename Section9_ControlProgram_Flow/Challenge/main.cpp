@@ -52,8 +52,8 @@ using namespace std;
 int main()
 {
     char selection {};
-    int numberAdded {0};
     vector <int> list_integers;
+
     do
     {
         cout << "P - Print numbers"               << endl <<
@@ -85,17 +85,76 @@ int main()
         }
         else if ((selection == 'A') || (selection == 'a'))
         {
+            int numberAdded {0};
             cout << "Enter an integer to add to the list: ";
             cin >> numberAdded;
             list_integers.push_back(numberAdded);
             cout << numberAdded << " added" << endl;
             cout << endl;
         }
+        else if ((selection == 'M') || (selection == 'm'))
+        {
+            int SumOfList {0};
+            if (list_integers.size() == 0)
+            {
+                cout << "Unable to calculate the mean - no data" << endl;
+            }
+            else
+            {
+                for (auto number : list_integers)
+                {
+                    SumOfList += number;
+                }
+                cout << "The mean is : " << static_cast<double>(SumOfList)/list_integers.size() << endl;
+            }
+            cout << endl;
+        }
+        else if ((selection == 'S') || (selection == 's'))
+        {
+            if (list_integers.size() == 0)
+            {
+                cout << "Unable to determine the smallest number - list is empty" << endl;
+            }
+            else
+            {
+                int smallest = list_integers.at(0);
+                for (auto number : list_integers)
+                {
+                    if (number < smallest)
+                    {
+                        smallest = number;
+                    }
+                }
+                cout << "The smallest number is : " << smallest << endl;
+            }
+            cout << endl;
+        }
+        else if ((selection == 'L') || (selection == 'l'))
+        {
+            if (list_integers.size() == 0)
+            {
+                cout << "Unable to determine the largest number - list is empty" << endl;
+            }
+            else
+            {
+                int largest = list_integers.at(0);
+                for (auto number : list_integers)
+                {
+                    if (number > largest)
+                    {
+                        largest = number;
+                    }
+                }
+                cout << "The largest number is : " << largest << endl;
+            }
+            cout << endl;
+        }
         else
         {
-            
+            cout << "Unknown selection, please try again." << endl;
+            cout << endl;
         }
-    } while ((selection != 'Q') || (selection != 'q'));
+    } while ((selection != 'Q') && (selection != 'q'));
 
     cout << "Goodbye" << endl;
 
