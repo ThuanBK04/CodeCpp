@@ -26,4 +26,5 @@
       <Project Name="Challenge" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
+  <VirtualDirectory Name="Section10_Characters and Strings"/>
 </CodeLite_Workspace>

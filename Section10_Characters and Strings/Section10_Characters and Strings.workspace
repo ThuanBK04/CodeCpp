@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="Section10_Characters and Strings" Database="" Version="10000">
+  <Project Name="C_StyleStrings" Path="C_StyleStrings/C_StyleStrings.project" Active="No"/>
+  <Project Name="C_StyleStrings_Practice" Path="C_StyleStrings_Practice/C_StyleStrings_Practice.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug">
+      <Environment/>
+      <Project Name="C_StyleStrings" ConfigName="Debug"/>
+      <Project Name="C_StyleStrings_Practice" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release">
+      <Environment/>
+      <Project Name="C_StyleStrings" ConfigName="Release"/>
+      <Project Name="C_StyleStrings_Practice" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
