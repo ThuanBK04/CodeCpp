@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="Section10_Characters and Strings" Database="" Version="10000">
   <Project Name="C_StyleStrings" Path="C_StyleStrings/C_StyleStrings.project" Active="No"/>
-  <Project Name="C_StyleStrings_Practice" Path="C_StyleStrings_Practice/C_StyleStrings_Practice.project" Active="Yes"/>
+  <Project Name="C_StyleStrings_Practice" Path="C_StyleStrings_Practice/C_StyleStrings_Practice.project" Active="No"/>
+  <Project Name="C++_Strings" Path="C++_Strings/C++_Strings.project" Active="No"/>
+  <Project Name="WorkingWithCppString" Path="WorkingWithCppString/WorkingWithCppString.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
       <Project Name="C_StyleStrings" ConfigName="Debug"/>
       <Project Name="C_StyleStrings_Practice" ConfigName="Debug"/>
+      <Project Name="C++_Strings" ConfigName="Debug"/>
+      <Project Name="WorkingWithCppString" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
       <Project Name="C_StyleStrings" ConfigName="Release"/>
       <Project Name="C_StyleStrings_Practice" ConfigName="Release"/>
+      <Project Name="C++_Strings" ConfigName="Release"/>
+      <Project Name="WorkingWithCppString" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
