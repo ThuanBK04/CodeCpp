@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ WorkingWithCppString - Debug ]----------"
-	@cd "WorkingWithCppString" && "$(MAKE)" -f  "WorkingWithCppString.mk"
+	@echo "----------Building project:[ Challenge - Debug ]----------"
+	@cd "Challenge" && "$(MAKE)" -f  "Challenge.mk"
 clean:
-	@echo "----------Cleaning project:[ WorkingWithCppString - Debug ]----------"
-	@cd "WorkingWithCppString" && "$(MAKE)" -f  "WorkingWithCppString.mk" clean
+	@echo "----------Cleaning project:[ Challenge - Debug ]----------"
+	@cd "Challenge" && "$(MAKE)" -f  "Challenge.mk" clean

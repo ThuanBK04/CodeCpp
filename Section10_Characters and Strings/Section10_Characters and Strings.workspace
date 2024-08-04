@@ -3,7 +3,8 @@
   <Project Name="C_StyleStrings" Path="C_StyleStrings/C_StyleStrings.project" Active="No"/>
   <Project Name="C_StyleStrings_Practice" Path="C_StyleStrings_Practice/C_StyleStrings_Practice.project" Active="No"/>
   <Project Name="C++_Strings" Path="C++_Strings/C++_Strings.project" Active="No"/>
-  <Project Name="WorkingWithCppString" Path="WorkingWithCppString/WorkingWithCppString.project" Active="Yes"/>
+  <Project Name="WorkingWithCppString" Path="WorkingWithCppString/WorkingWithCppString.project" Active="No"/>
+  <Project Name="Challenge" Path="Challenge/Challenge.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
@@ -11,6 +12,7 @@
       <Project Name="C_StyleStrings_Practice" ConfigName="Debug"/>
       <Project Name="C++_Strings" ConfigName="Debug"/>
       <Project Name="WorkingWithCppString" ConfigName="Debug"/>
+      <Project Name="Challenge" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -18,6 +20,7 @@
       <Project Name="C_StyleStrings_Practice" ConfigName="Release"/>
       <Project Name="C++_Strings" ConfigName="Release"/>
       <Project Name="WorkingWithCppString" ConfigName="Release"/>
+      <Project Name="Challenge" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
