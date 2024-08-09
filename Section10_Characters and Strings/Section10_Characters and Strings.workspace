@@ -4,7 +4,8 @@
   <Project Name="C_StyleStrings_Practice" Path="C_StyleStrings_Practice/C_StyleStrings_Practice.project" Active="No"/>
   <Project Name="C++_Strings" Path="C++_Strings/C++_Strings.project" Active="No"/>
   <Project Name="WorkingWithCppString" Path="WorkingWithCppString/WorkingWithCppString.project" Active="No"/>
-  <Project Name="Challenge" Path="Challenge/Challenge.project" Active="Yes"/>
+  <Project Name="Challenge" Path="Challenge/Challenge.project" Active="No"/>
+  <Project Name="Challenge_Assignment_LetterPyramid" Path="Challenge_Assignment_LetterPyramid/Challenge_Assignment_LetterPyramid.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
@@ -13,6 +14,7 @@
       <Project Name="C++_Strings" ConfigName="Debug"/>
       <Project Name="WorkingWithCppString" ConfigName="Debug"/>
       <Project Name="Challenge" ConfigName="Debug"/>
+      <Project Name="Challenge_Assignment_LetterPyramid" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -21,6 +23,7 @@
       <Project Name="C++_Strings" ConfigName="Release"/>
       <Project Name="WorkingWithCppString" ConfigName="Release"/>
       <Project Name="Challenge" ConfigName="Release"/>
+      <Project Name="Challenge_Assignment_LetterPyramid" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

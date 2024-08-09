@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Session Name="D:\11_LaptrinhCpp\CodeCpp\Section10_Characters and Strings\Section10_Characters and Strings.workspace">
-  <int Value="2" Name="m_selectedTab"/>
+  <int Value="1" Name="m_selectedTab"/>
   <wxString Value="D:\11_LaptrinhCpp\CodeCpp\Section10_Characters and Strings\Section10_Characters and Strings.workspace" Name="m_workspaceName"/>
   <TabInfoArray Name="TabInfoArray">
     <TabInfo>
-      <wxString Value="D:\11_LaptrinhCpp\CodeCpp\Section10_Characters and Strings\C_StyleStrings_Practice\main.cpp" Name="FileName"/>
-      <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="0" Name="CurrentLine"/>
+      <wxString Value="D:\11_LaptrinhCpp\CodeCpp\Section10_Characters and Strings\Challenge\main.cpp" Name="FileName"/>
+      <int Value="22" Name="FirstVisibleLine"/>
+      <int Value="31" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
-      <wxString Value="D:\11_LaptrinhCpp\CodeCpp\Section10_Characters and Strings\C_StyleStrings\main.cpp" Name="FileName"/>
-      <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="0" Name="CurrentLine"/>
-      <wxArrayString Name="Bookmarks"/>
-      <IntVector Name="CollapsedFolds"/>
-    </TabInfo>
-    <TabInfo>
-      <wxString Value="D:\11_LaptrinhCpp\CodeCpp\Section10_Characters and Strings\C++_Strings\main.cpp" Name="FileName"/>
-      <int Value="128" Name="FirstVisibleLine"/>
-      <int Value="138" Name="CurrentLine"/>
+      <wxString Value="D:\11_LaptrinhCpp\CodeCpp\Section10_Characters and Strings\Challenge_Assignment_LetterPyramid\main.cpp" Name="FileName"/>
+      <int Value="99" Name="FirstVisibleLine"/>
+      <int Value="112" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
