@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="Functions" Database="" Version="10000">
-  <Project Name="Default_Argument_Value" Path="Default_Argument_Value/Default_Argument_Value.project" Active="Yes"/>
+  <Project Name="Default_Argument_Value" Path="Default_Argument_Value/Default_Argument_Value.project" Active="No"/>
+  <Project Name="Overloading_Function" Path="Overloading_Function/Overloading_Function.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
       <Project Name="Default_Argument_Value" ConfigName="Debug"/>
+      <Project Name="Overloading_Function" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
       <Project Name="Default_Argument_Value" ConfigName="Release"/>
+      <Project Name="Overloading_Function" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
