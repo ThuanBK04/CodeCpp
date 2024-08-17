@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ Overloading_Function - Debug ]----------"
-	@cd "Overloading_Function" && "$(MAKE)" -f  "Overloading_Function.mk"
+	@echo "----------Building project:[ Pass_By_Reference - Debug ]----------"
+	@cd "Pass_By_Reference" && "$(MAKE)" -f  "Pass_By_Reference.mk"
 clean:
-	@echo "----------Cleaning project:[ Overloading_Function - Debug ]----------"
-	@cd "Overloading_Function" && "$(MAKE)" -f  "Overloading_Function.mk" clean
+	@echo "----------Cleaning project:[ Pass_By_Reference - Debug ]----------"
+	@cd "Pass_By_Reference" && "$(MAKE)" -f  "Pass_By_Reference.mk" clean
