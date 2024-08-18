@@ -5,7 +5,8 @@
   <Project Name="Pass_By_Reference" Path="Pass_By_Reference/Pass_By_Reference.project" Active="No"/>
   <Project Name="ScopeRules" Path="ScopeRules/ScopeRules.project" Active="No"/>
   <Project Name="HowFunctionCallWork" Path="HowFunctionCallWork/HowFunctionCallWork.project" Active="No"/>
-  <Project Name="InlineFunctions" Path="InlineFunctions/InlineFunctions.project" Active="Yes"/>
+  <Project Name="InlineFunctions" Path="InlineFunctions/InlineFunctions.project" Active="No"/>
+  <Project Name="RecursiveFunctions" Path="RecursiveFunctions/RecursiveFunctions.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
@@ -15,6 +16,7 @@
       <Project Name="ScopeRules" ConfigName="Debug"/>
       <Project Name="HowFunctionCallWork" ConfigName="Debug"/>
       <Project Name="InlineFunctions" ConfigName="Debug"/>
+      <Project Name="RecursiveFunctions" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -24,6 +26,7 @@
       <Project Name="ScopeRules" ConfigName="Release"/>
       <Project Name="HowFunctionCallWork" ConfigName="Release"/>
       <Project Name="InlineFunctions" ConfigName="Release"/>
+      <Project Name="RecursiveFunctions" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
