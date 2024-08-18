@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ RecursiveFunctions - Debug ]----------"
-	@cd "RecursiveFunctions" && "$(MAKE)" -f  "RecursiveFunctions.mk"
+	@echo "----------Building project:[ Challenge - Debug ]----------"
+	@cd "Challenge" && "$(MAKE)" -f  "Challenge.mk"
 clean:
-	@echo "----------Cleaning project:[ RecursiveFunctions - Debug ]----------"
-	@cd "RecursiveFunctions" && "$(MAKE)" -f  "RecursiveFunctions.mk" clean
+	@echo "----------Cleaning project:[ Challenge - Debug ]----------"
+	@cd "Challenge" && "$(MAKE)" -f  "Challenge.mk" clean

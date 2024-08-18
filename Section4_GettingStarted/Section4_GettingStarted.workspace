@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CodeLite_Workspace Name="Section4" Database="" Version="10000">
+<CodeLite_Workspace Name="Section4_GettingStarted" Database="" Version="10000">
   <Project Name="FirstProgram" Path="FirstProgram/FirstProgram.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
