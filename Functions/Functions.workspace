@@ -2,19 +2,22 @@
 <CodeLite_Workspace Name="Functions" Database="" Version="10000">
   <Project Name="Default_Argument_Value" Path="Default_Argument_Value/Default_Argument_Value.project" Active="No"/>
   <Project Name="Overloading_Function" Path="Overloading_Function/Overloading_Function.project" Active="No"/>
-  <Project Name="Pass_By_Reference" Path="Pass_By_Reference/Pass_By_Reference.project" Active="Yes"/>
+  <Project Name="Pass_By_Reference" Path="Pass_By_Reference/Pass_By_Reference.project" Active="No"/>
+  <Project Name="ScopeRules" Path="ScopeRules/ScopeRules.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
       <Project Name="Default_Argument_Value" ConfigName="Debug"/>
       <Project Name="Overloading_Function" ConfigName="Debug"/>
       <Project Name="Pass_By_Reference" ConfigName="Debug"/>
+      <Project Name="ScopeRules" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
       <Project Name="Default_Argument_Value" ConfigName="Release"/>
       <Project Name="Overloading_Function" ConfigName="Release"/>
       <Project Name="Pass_By_Reference" ConfigName="Release"/>
+      <Project Name="ScopeRules" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
