@@ -4,7 +4,8 @@
   <Project Name="Overloading_Function" Path="Overloading_Function/Overloading_Function.project" Active="No"/>
   <Project Name="Pass_By_Reference" Path="Pass_By_Reference/Pass_By_Reference.project" Active="No"/>
   <Project Name="ScopeRules" Path="ScopeRules/ScopeRules.project" Active="No"/>
-  <Project Name="HowFunctionCallWork" Path="HowFunctionCallWork/HowFunctionCallWork.project" Active="Yes"/>
+  <Project Name="HowFunctionCallWork" Path="HowFunctionCallWork/HowFunctionCallWork.project" Active="No"/>
+  <Project Name="InlineFunctions" Path="InlineFunctions/InlineFunctions.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
@@ -13,6 +14,7 @@
       <Project Name="Pass_By_Reference" ConfigName="Debug"/>
       <Project Name="ScopeRules" ConfigName="Debug"/>
       <Project Name="HowFunctionCallWork" ConfigName="Debug"/>
+      <Project Name="InlineFunctions" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -21,6 +23,7 @@
       <Project Name="Pass_By_Reference" ConfigName="Release"/>
       <Project Name="ScopeRules" ConfigName="Release"/>
       <Project Name="HowFunctionCallWork" ConfigName="Release"/>
+      <Project Name="InlineFunctions" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
