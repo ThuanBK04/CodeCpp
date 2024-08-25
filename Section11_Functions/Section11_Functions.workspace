@@ -7,7 +7,7 @@
   <Project Name="HowFunctionCallWork" Path="HowFunctionCallWork/HowFunctionCallWork.project" Active="No"/>
   <Project Name="InlineFunctions" Path="InlineFunctions/InlineFunctions.project" Active="No"/>
   <Project Name="RecursiveFunctions" Path="RecursiveFunctions/RecursiveFunctions.project" Active="No"/>
-  <Project Name="Challenge" Path="Challenge/Challenge.project" Active="Yes"/>
+  <Project Name="Challenge" Path="Challenge/Challenge.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
@@ -19,6 +19,7 @@
       <Project Name="InlineFunctions" ConfigName="Debug"/>
       <Project Name="RecursiveFunctions" ConfigName="Debug"/>
       <Project Name="Challenge" ConfigName="Debug"/>
+      <Project Name="Section12_PointersAndReferences" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -30,6 +31,7 @@
       <Project Name="InlineFunctions" ConfigName="Release"/>
       <Project Name="RecursiveFunctions" ConfigName="Release"/>
       <Project Name="Challenge" ConfigName="Release"/>
+      <Project Name="Section12_PointersAndReferences" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

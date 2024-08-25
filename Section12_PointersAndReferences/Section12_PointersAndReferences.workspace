@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="Section12_PointersAndReferences" Database="" Version="10000">
+  <Project Name="WhatApointer" Path="WhatApointer/WhatApointer.project" Active="No"/>
+  <Project Name="DeclaringPointers" Path="DeclaringPointers/DeclaringPointers.project" Active="No"/>
+  <Project Name="AccessingPointerAddress" Path="AccessingPointerAddress/AccessingPointerAddress.project" Active="No"/>
+  <Project Name="DeferencingPointer" Path="DeferencingPointer/DeferencingPointer.project" Active="No"/>
+  <Project Name="DynamicMemoryAllocation" Path="DynamicMemoryAllocation/DynamicMemoryAllocation.project" Active="No"/>
+  <Project Name="RelationShipBetweenArrayAndPointer" Path="RelationShipBetweenArrayAndPointer/RelationShipBetweenArrayAndPointer.project" Active="No"/>
+  <Project Name="PointerArithmetric" Path="PointerArithmetric/PointerArithmetric.project" Active="No"/>
+  <Project Name="ConstAndPointer" Path="ConstAndPointer/ConstAndPointer.project" Active="No"/>
+  <Project Name="PassingPointersToFunction" Path="PassingPointersToFunction/PassingPointersToFunction.project" Active="No"/>
+  <Project Name="ChallengeReverseString" Path="ChallengeReverseString/ChallengeReverseString.project" Active="No"/>
+  <Project Name="PotentialPointerPitfalls" Path="PotentialPointerPitfalls/PotentialPointerPitfalls.project" Active="No"/>
+  <Project Name="WhatReferences" Path="WhatReferences/WhatReferences.project" Active="No"/>
+  <Project Name="L_Value_And_R_Value" Path="L_Value_And_R_Value/L_Value_And_R_Value.project" Active="No"/>
+  <Project Name="SectionRecap" Path="SectionRecap/SectionRecap.project" Active="No"/>
+  <Project Name="ChallengeSection" Path="ChallengeSection/ChallengeSection.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug">
+      <Environment/>
+      <Project Name="WhatApointer" ConfigName="Debug"/>
+      <Project Name="DeclaringPointers" ConfigName="Debug"/>
+      <Project Name="AccessingPointerAddress" ConfigName="Debug"/>
+      <Project Name="DeferencingPointer" ConfigName="Debug"/>
+      <Project Name="DynamicMemoryAllocation" ConfigName="Debug"/>
+      <Project Name="RelationShipBetweenArrayAndPointer" ConfigName="Debug"/>
+      <Project Name="PointerArithmetric" ConfigName="Debug"/>
+      <Project Name="ConstAndPointer" ConfigName="Debug"/>
+      <Project Name="PassingPointersToFunction" ConfigName="Debug"/>
+      <Project Name="ChallengeReverseString" ConfigName="Debug"/>
+      <Project Name="PotentialPointerPitfalls" ConfigName="Debug"/>
+      <Project Name="WhatReferences" ConfigName="Debug"/>
+      <Project Name="L_Value_And_R_Value" ConfigName="Debug"/>
+      <Project Name="SectionRecap" ConfigName="Debug"/>
+      <Project Name="ChallengeSection" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release">
+      <Environment/>
+      <Project Name="WhatApointer" ConfigName="Release"/>
+      <Project Name="DeclaringPointers" ConfigName="Release"/>
+      <Project Name="AccessingPointerAddress" ConfigName="Release"/>
+      <Project Name="DeferencingPointer" ConfigName="Release"/>
+      <Project Name="DynamicMemoryAllocation" ConfigName="Release"/>
+      <Project Name="RelationShipBetweenArrayAndPointer" ConfigName="Release"/>
+      <Project Name="PointerArithmetric" ConfigName="Release"/>
+      <Project Name="ConstAndPointer" ConfigName="Release"/>
+      <Project Name="PassingPointersToFunction" ConfigName="Release"/>
+      <Project Name="ChallengeReverseString" ConfigName="Release"/>
+      <Project Name="PotentialPointerPitfalls" ConfigName="Release"/>
+      <Project Name="WhatReferences" ConfigName="Release"/>
+      <Project Name="L_Value_And_R_Value" ConfigName="Release"/>
+      <Project Name="SectionRecap" ConfigName="Release"/>
+      <Project Name="ChallengeSection" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
