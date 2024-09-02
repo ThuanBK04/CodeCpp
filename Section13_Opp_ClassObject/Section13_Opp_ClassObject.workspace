@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="Section13_Opp_ClassObject" Database="" Version="10000">
+  <Project Name="SectionOverview" Path="SectionOverview/SectionOverview.project" Active="No"/>
+  <Project Name="DeclaringClassCreatingObjects" Path="DeclaringClassCreatingObjects/DeclaringClassCreatingObjects.project" Active="No"/>
+  <Project Name="AccessingClassMember" Path="AccessingClassMember/AccessingClassMember.project" Active="No"/>
+  <Project Name="PublicAndPrivate" Path="PublicAndPrivate/PublicAndPrivate.project" Active="No"/>
+  <Project Name="ImplementingMemberMethod" Path="ImplementingMemberMethod/ImplementingMemberMethod.project" Active="No"/>
+  <Project Name="ConstructorsDestructors" Path="ConstructorsDestructors/ConstructorsDestructors.project" Active="No"/>
+  <Project Name="DefaultConstructor" Path="DefaultConstructor/DefaultConstructor.project" Active="No"/>
+  <Project Name="ConstructorInitializationList" Path="ConstructorInitializationList/ConstructorInitializationList.project" Active="No"/>
+  <Project Name="DelegatingConstructor" Path="DelegatingConstructor/DelegatingConstructor.project" Active="No"/>
+  <Project Name="ConstuctorParametersAndDefaultValues" Path="ConstuctorParametersAndDefaultValues/ConstuctorParametersAndDefaultValues.project" Active="No"/>
+  <Project Name="CopyConstructor" Path="CopyConstructor/CopyConstructor.project" Active="No"/>
+  <Project Name="ShallowCopyWithCopyConstructor" Path="ShallowCopyWithCopyConstructor/ShallowCopyWithCopyConstructor.project" Active="No"/>
+  <Project Name="DeepCopyWithCopyConstructor" Path="DeepCopyWithCopyConstructor/DeepCopyWithCopyConstructor.project" Active="No"/>
+  <Project Name="MoveConstructor" Path="MoveConstructor/MoveConstructor.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug">
+      <Environment/>
+      <Project Name="SectionOverview" ConfigName="Debug"/>
+      <Project Name="DeclaringClassCreatingObjects" ConfigName="Debug"/>
+      <Project Name="AccessingClassMember" ConfigName="Debug"/>
+      <Project Name="PublicAndPrivate" ConfigName="Debug"/>
+      <Project Name="ImplementingMemberMethod" ConfigName="Debug"/>
+      <Project Name="ConstructorsDestructors" ConfigName="Debug"/>
+      <Project Name="DefaultConstructor" ConfigName="Debug"/>
+      <Project Name="ConstructorInitializationList" ConfigName="Debug"/>
+      <Project Name="DelegatingConstructor" ConfigName="Debug"/>
+      <Project Name="ConstuctorParametersAndDefaultValues" ConfigName="Debug"/>
+      <Project Name="CopyConstructor" ConfigName="Debug"/>
+      <Project Name="ShallowCopyWithCopyConstructor" ConfigName="Debug"/>
+      <Project Name="DeepCopyWithCopyConstructor" ConfigName="Debug"/>
+      <Project Name="MoveConstructor" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release">
+      <Environment/>
+      <Project Name="SectionOverview" ConfigName="Release"/>
+      <Project Name="DeclaringClassCreatingObjects" ConfigName="Release"/>
+      <Project Name="AccessingClassMember" ConfigName="Release"/>
+      <Project Name="PublicAndPrivate" ConfigName="Release"/>
+      <Project Name="ImplementingMemberMethod" ConfigName="Release"/>
+      <Project Name="ConstructorsDestructors" ConfigName="Release"/>
+      <Project Name="DefaultConstructor" ConfigName="Release"/>
+      <Project Name="ConstructorInitializationList" ConfigName="Release"/>
+      <Project Name="DelegatingConstructor" ConfigName="Release"/>
+      <Project Name="ConstuctorParametersAndDefaultValues" ConfigName="Release"/>
+      <Project Name="CopyConstructor" ConfigName="Release"/>
+      <Project Name="ShallowCopyWithCopyConstructor" ConfigName="Release"/>
+      <Project Name="DeepCopyWithCopyConstructor" ConfigName="Release"/>
+      <Project Name="MoveConstructor" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
