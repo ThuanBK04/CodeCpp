@@ -13,7 +13,13 @@
   <Project Name="CopyConstructor" Path="CopyConstructor/CopyConstructor.project" Active="No"/>
   <Project Name="ShallowCopyWithCopyConstructor" Path="ShallowCopyWithCopyConstructor/ShallowCopyWithCopyConstructor.project" Active="No"/>
   <Project Name="DeepCopyWithCopyConstructor" Path="DeepCopyWithCopyConstructor/DeepCopyWithCopyConstructor.project" Active="No"/>
-  <Project Name="MoveConstructor" Path="MoveConstructor/MoveConstructor.project" Active="Yes"/>
+  <Project Name="MoveConstructor" Path="MoveConstructor/MoveConstructor.project" Active="No"/>
+  <Project Name="ThisPointer" Path="ThisPointer/ThisPointer.project" Active="No"/>
+  <Project Name="ConstQualifierWithClass" Path="ConstQualifierWithClass/ConstQualifierWithClass.project" Active="No"/>
+  <Project Name="StaticClassMember" Path="StaticClassMember/StaticClassMember.project" Active="No"/>
+  <Project Name="StructVsClass" Path="StructVsClass/StructVsClass.project" Active="No"/>
+  <Project Name="FriendsOfClass" Path="FriendsOfClass/FriendsOfClass.project" Active="No"/>
+  <Project Name="Challenge" Path="Challenge/Challenge.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
@@ -31,6 +37,12 @@
       <Project Name="ShallowCopyWithCopyConstructor" ConfigName="Debug"/>
       <Project Name="DeepCopyWithCopyConstructor" ConfigName="Debug"/>
       <Project Name="MoveConstructor" ConfigName="Debug"/>
+      <Project Name="ThisPointer" ConfigName="Debug"/>
+      <Project Name="ConstQualifierWithClass" ConfigName="Debug"/>
+      <Project Name="StaticClassMember" ConfigName="Debug"/>
+      <Project Name="StructVsClass" ConfigName="Debug"/>
+      <Project Name="FriendsOfClass" ConfigName="Debug"/>
+      <Project Name="Challenge" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -48,6 +60,12 @@
       <Project Name="ShallowCopyWithCopyConstructor" ConfigName="Release"/>
       <Project Name="DeepCopyWithCopyConstructor" ConfigName="Release"/>
       <Project Name="MoveConstructor" ConfigName="Release"/>
+      <Project Name="ThisPointer" ConfigName="Release"/>
+      <Project Name="ConstQualifierWithClass" ConfigName="Release"/>
+      <Project Name="StaticClassMember" ConfigName="Release"/>
+      <Project Name="StructVsClass" ConfigName="Release"/>
+      <Project Name="FriendsOfClass" ConfigName="Release"/>
+      <Project Name="Challenge" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
