@@ -1,5 +1,0 @@
-[{
-  "file": "D:\\11_LaptrinhCpp\\CodeCpp\\Section4_GettingStarted\\FirstProgram\\main.cpp",
-  "directory": "D:\\11_LaptrinhCpp\\CodeCpp\\Section4_GettingStarted\\FirstProgram",
-  "command": "D:/11_LaptrinhCpp/Software/mingw64/bin/g++.exe -c D:\\11_LaptrinhCpp\\CodeCpp\\Section4_GettingStarted\\FirstProgram\\main.cpp -o D:\\11_LaptrinhCpp\\CodeCpp\\Section4_GettingStarted\\FirstProgram\\main.cpp.o -target x86_64-w64-mingw32 -ID:\\11_LaptrinhCpp\\Software\\mingw64\\include\\c++\\14.1.0 -ID:\\11_LaptrinhCpp\\Software\\mingw64\\include\\c++\\14.1.0\\x86_64-w64-mingw32 -ID:\\11_LaptrinhCpp\\Software\\mingw64\\include\\c++\\14.1.0\\backward -ID:\\11_LaptrinhCpp\\Software\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\14.1.0\\include -ID:\\11_LaptrinhCpp\\Software\\mingw64\\include -ID:\\11_LaptrinhCpp\\Software\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\14.1.0\\include-fixed -ID:\\11_LaptrinhCpp\\Software\\mingw64\\x86_64-w64-mingw32\\include -I. -I.  -O0  -gdwarf-2  -std=c++17  -Wall"
- }]

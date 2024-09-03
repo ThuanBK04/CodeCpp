@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session Name="D:\11_LaptrinhCpp\CodeCpp\Section4_GettingStarted\Section4_GettingStarted.workspace">
+<Session Name="D:\11_LaptrinhCpp\CodeCpp\Section04_GettingStarted\Section4_GettingStarted.workspace">
   <int Value="0" Name="m_selectedTab"/>
-  <wxString Value="D:\11_LaptrinhCpp\CodeCpp\Section4_GettingStarted\Section4_GettingStarted.workspace" Name="m_workspaceName"/>
+  <wxString Value="D:\11_LaptrinhCpp\CodeCpp\Section04_GettingStarted\Section4_GettingStarted.workspace" Name="m_workspaceName"/>
   <TabInfoArray Name="TabInfoArray">
     <TabInfo>
-      <wxString Value="D:\11_LaptrinhCpp\CodeCpp\Section4_GettingStarted\FirstProgram\main.cpp" Name="FileName"/>
+      <wxString Value="D:\11_LaptrinhCpp\CodeCpp\Section04_GettingStarted\FirstProgram\main.cpp" Name="FileName"/>
       <int Value="0" Name="FirstVisibleLine"/>
       <int Value="12" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>

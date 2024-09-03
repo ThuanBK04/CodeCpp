@@ -4,9 +4,9 @@
   <wxString Value="D:\11_LaptrinhCpp\CodeCpp\Section13_Opp_ClassObject\Section13_Opp_ClassObject.workspace" Name="m_workspaceName"/>
   <TabInfoArray Name="TabInfoArray">
     <TabInfo>
-      <wxString Value="D:\11_LaptrinhCpp\CodeCpp\Section13_Opp_ClassObject\ConstQualifierWithClass\main.cpp" Name="FileName"/>
-      <int Value="68" Name="FirstVisibleLine"/>
-      <int Value="80" Name="CurrentLine"/>
+      <wxString Value="D:\11_LaptrinhCpp\CodeCpp\Section13_Opp_ClassObject\Challenge\main.cpp" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="9" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
