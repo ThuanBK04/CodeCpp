@@ -3,18 +3,18 @@
 ## any manual changes will be erased      
 ##
 ## Debug
-ProjectName            :=MoveConstructor
+ProjectName            :=OtherExampleMoveConstructor
 ConfigurationName      :=Debug
 WorkspaceConfiguration :=Debug
 WorkspacePath          :=D:/11_LaptrinhCpp/CodeCpp/Section13_Opp_ClassObject
-ProjectPath            :=D:/11_LaptrinhCpp/CodeCpp/Section13_Opp_ClassObject/MoveConstructor
-IntermediateDirectory  :=../build-$(WorkspaceConfiguration)/MoveConstructor
+ProjectPath            :=D:/11_LaptrinhCpp/CodeCpp/Section13_Opp_ClassObject/OtherExampleMoveConstructor
+IntermediateDirectory  :=../build-$(WorkspaceConfiguration)/OtherExampleMoveConstructor
 OutDir                 :=$(IntermediateDirectory)
 CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
 User                   :=NGUYEN DUC THUAN
-Date                   :=03/09/2024
+Date                   :=04/09/2024
 CodeLitePath           :=D:/11_LaptrinhCpp/Software/CodeLite
 MakeDirCommand         :=mkdir
 LinkerName             :=D:/11_LaptrinhCpp/Software/mingw64/bin/g++.exe
@@ -64,7 +64,7 @@ AS       := D:/11_LaptrinhCpp/Software/mingw64/bin/as.exe
 ## User defined environment variables
 ##
 CodeLiteDir:=D:\11_LaptrinhCpp\Software\CodeLite
-Objects0=$(IntermediateDirectory)/main.cpp$(ObjectSuffix) 
+Objects0=$(IntermediateDirectory)/Point.cpp$(ObjectSuffix) $(IntermediateDirectory)/main.cpp$(ObjectSuffix) 
 
 
 
@@ -95,8 +95,13 @@ PreBuild:
 ##
 ## Objects
 ##
+$(IntermediateDirectory)/Point.cpp$(ObjectSuffix): Point.cpp 
+	$(CXX) $(IncludePCH) $(SourceSwitch) "D:/11_LaptrinhCpp/CodeCpp/Section13_Opp_ClassObject/OtherExampleMoveConstructor/Point.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Point.cpp$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/Point.cpp$(PreprocessSuffix): Point.cpp
+	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/Point.cpp$(PreprocessSuffix) Point.cpp
+
 $(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp 
-	$(CXX) $(IncludePCH) $(SourceSwitch) "D:/11_LaptrinhCpp/CodeCpp/Section13_Opp_ClassObject/MoveConstructor/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "D:/11_LaptrinhCpp/CodeCpp/Section13_Opp_ClassObject/OtherExampleMoveConstructor/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.cpp$(PreprocessSuffix): main.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.cpp$(PreprocessSuffix) main.cpp
 

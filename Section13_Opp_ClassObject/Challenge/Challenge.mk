@@ -3,18 +3,18 @@
 ## any manual changes will be erased      
 ##
 ## Debug
-ProjectName            :=MoveConstructor
+ProjectName            :=Challenge
 ConfigurationName      :=Debug
 WorkspaceConfiguration :=Debug
 WorkspacePath          :=D:/11_LaptrinhCpp/CodeCpp/Section13_Opp_ClassObject
-ProjectPath            :=D:/11_LaptrinhCpp/CodeCpp/Section13_Opp_ClassObject/MoveConstructor
-IntermediateDirectory  :=../build-$(WorkspaceConfiguration)/MoveConstructor
+ProjectPath            :=D:/11_LaptrinhCpp/CodeCpp/Section13_Opp_ClassObject/Challenge
+IntermediateDirectory  :=../build-$(WorkspaceConfiguration)/Challenge
 OutDir                 :=$(IntermediateDirectory)
 CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
 User                   :=NGUYEN DUC THUAN
-Date                   :=03/09/2024
+Date                   :=07/09/2024
 CodeLitePath           :=D:/11_LaptrinhCpp/Software/CodeLite
 MakeDirCommand         :=mkdir
 LinkerName             :=D:/11_LaptrinhCpp/Software/mingw64/bin/g++.exe
@@ -64,7 +64,7 @@ AS       := D:/11_LaptrinhCpp/Software/mingw64/bin/as.exe
 ## User defined environment variables
 ##
 CodeLiteDir:=D:\11_LaptrinhCpp\Software\CodeLite
-Objects0=$(IntermediateDirectory)/main.cpp$(ObjectSuffix) 
+Objects0=$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IntermediateDirectory)/Movies.cpp$(ObjectSuffix) $(IntermediateDirectory)/Movie.cpp$(ObjectSuffix) 
 
 
 
@@ -96,9 +96,19 @@ PreBuild:
 ## Objects
 ##
 $(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp 
-	$(CXX) $(IncludePCH) $(SourceSwitch) "D:/11_LaptrinhCpp/CodeCpp/Section13_Opp_ClassObject/MoveConstructor/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "D:/11_LaptrinhCpp/CodeCpp/Section13_Opp_ClassObject/Challenge/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.cpp$(PreprocessSuffix): main.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.cpp$(PreprocessSuffix) main.cpp
+
+$(IntermediateDirectory)/Movies.cpp$(ObjectSuffix): Movies.cpp 
+	$(CXX) $(IncludePCH) $(SourceSwitch) "D:/11_LaptrinhCpp/CodeCpp/Section13_Opp_ClassObject/Challenge/Movies.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Movies.cpp$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/Movies.cpp$(PreprocessSuffix): Movies.cpp
+	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/Movies.cpp$(PreprocessSuffix) Movies.cpp
+
+$(IntermediateDirectory)/Movie.cpp$(ObjectSuffix): Movie.cpp 
+	$(CXX) $(IncludePCH) $(SourceSwitch) "D:/11_LaptrinhCpp/CodeCpp/Section13_Opp_ClassObject/Challenge/Movie.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Movie.cpp$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/Movie.cpp$(PreprocessSuffix): Movie.cpp
+	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/Movie.cpp$(PreprocessSuffix) Movie.cpp
 
 ##
 ## Clean

@@ -203,7 +203,9 @@ Move::~Move() {
 int main() {
     vector<Move> vec;
 
-    vec.push_back(Move{10});
+    Move Move1{10};
+
+    vec.push_back(Move1);
 
     vec.push_back(Move{20});
     vec.push_back(Move{30});

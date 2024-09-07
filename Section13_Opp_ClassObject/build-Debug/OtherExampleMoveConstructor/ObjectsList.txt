@@ -1,0 +1,1 @@
+../build-Debug/OtherExampleMoveConstructor/Point.cpp.o ../build-Debug/OtherExampleMoveConstructor/main.cpp.o   
