@@ -1,0 +1,1 @@
+../build-Debug/WhatOperatorLoading/Mystring.cpp.o ../build-Debug/WhatOperatorLoading/main.cpp.o   

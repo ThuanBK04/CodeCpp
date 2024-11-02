@@ -1,0 +1,1 @@
+../build-Debug/OverloadingOperatorAsMemberFunction/Mystring.cpp.o ../build-Debug/OverloadingOperatorAsMemberFunction/main.cpp.o   

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="Section14_OperatorOverloading" Database="" Version="10000">
+  <Project Name="WhatOperatorLoading" Path="WhatOperatorLoading/WhatOperatorLoading.project" Active="No"/>
+  <Project Name="OperatorOverloading" Path="OperatorOverloading/OperatorOverloading.project" Active="No"/>
+  <Project Name="OverloadingAssignmentOperator" Path="OverloadingAssignmentOperator/OverloadingAssignmentOperator.project" Active="No"/>
+  <Project Name="OverloadingOperatorAsMemberFunction" Path="OverloadingOperatorAsMemberFunction/OverloadingOperatorAsMemberFunction.project" Active="No"/>
+  <Project Name="OverloadingOperatorAsGlobalFunction" Path="OverloadingOperatorAsGlobalFunction/OverloadingOperatorAsGlobalFunction.project" Active="No"/>
+  <Project Name="OverloadingOperatorInsertionAndExtraction" Path="OverloadingOperatorInsertionAndExtraction/OverloadingOperatorInsertionAndExtraction.project" Active="No"/>
+  <Project Name="Challenge" Path="Challenge/Challenge.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug">
+      <Environment/>
+      <Project Name="WhatOperatorLoading" ConfigName="Debug"/>
+      <Project Name="OperatorOverloading" ConfigName="Debug"/>
+      <Project Name="OverloadingAssignmentOperator" ConfigName="Debug"/>
+      <Project Name="OverloadingOperatorAsMemberFunction" ConfigName="Debug"/>
+      <Project Name="OverloadingOperatorAsGlobalFunction" ConfigName="Debug"/>
+      <Project Name="OverloadingOperatorInsertionAndExtraction" ConfigName="Debug"/>
+      <Project Name="Challenge" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release">
+      <Environment/>
+      <Project Name="WhatOperatorLoading" ConfigName="Release"/>
+      <Project Name="OperatorOverloading" ConfigName="Release"/>
+      <Project Name="OverloadingAssignmentOperator" ConfigName="Release"/>
+      <Project Name="OverloadingOperatorAsMemberFunction" ConfigName="Release"/>
+      <Project Name="OverloadingOperatorAsGlobalFunction" ConfigName="Release"/>
+      <Project Name="OverloadingOperatorInsertionAndExtraction" ConfigName="Release"/>
+      <Project Name="Challenge" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>

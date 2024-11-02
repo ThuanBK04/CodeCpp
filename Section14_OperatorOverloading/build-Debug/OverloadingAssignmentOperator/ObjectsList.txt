@@ -1,0 +1,1 @@
+../build-Debug/OverloadingAssignmentOperator/Mystring.cpp.o ../build-Debug/OverloadingAssignmentOperator/main.cpp.o   
