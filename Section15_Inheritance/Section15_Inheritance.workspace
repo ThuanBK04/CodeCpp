@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="Section15_Inheritance" Database="" Version="10000">
+  <Project Name="What_Inheritance" Path="What_Inheritance/What_Inheritance.project" Active="No"/>
+  <Project Name="Terminology_and_notation" Path="Terminology_and_notation/Terminology_and_notation.project" Active="No"/>
+  <Project Name="InheritanceVsComposition" Path="InheritanceVsComposition/InheritanceVsComposition.project" Active="No"/>
+  <Project Name="DerivingClassFromExistingClass" Path="DerivingClassFromExistingClass/DerivingClassFromExistingClass.project" Active="No"/>
+  <Project Name="ProtectedMemberAndClassAccess" Path="ProtectedMemberAndClassAccess/ProtectedMemberAndClassAccess.project" Active="No"/>
+  <Project Name="ConstructorsAndDecontructors" Path="ConstructorsAndDecontructors/ConstructorsAndDecontructors.project" Active="No"/>
+  <Project Name="PassArgumentToBaseClassConstructors" Path="PassArgumentToBaseClassConstructors/PassArgumentToBaseClassConstructors.project" Active="No"/>
+  <Project Name="CopyMoveConstructorsAndOperator=WithDerivedClaases" Path="CopyMoveConstructorsAndOperator=WithDerivedClaases/CopyMoveConstructorsAndOperator=WithDerivedClaases.project" Active="No"/>
+  <Project Name="RedefiningBaseClassMethods" Path="RedefiningBaseClassMethods/RedefiningBaseClassMethods.project" Active="No"/>
+  <Project Name="MultipleInheritance" Path="MultipleInheritance/MultipleInheritance.project" Active="No"/>
+  <Project Name="Challenge" Path="Challenge/Challenge.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug">
+      <Environment/>
+      <Project Name="What_Inheritance" ConfigName="Debug"/>
+      <Project Name="Terminology_and_notation" ConfigName="Debug"/>
+      <Project Name="InheritanceVsComposition" ConfigName="Debug"/>
+      <Project Name="DerivingClassFromExistingClass" ConfigName="Debug"/>
+      <Project Name="ProtectedMemberAndClassAccess" ConfigName="Debug"/>
+      <Project Name="ConstructorsAndDecontructors" ConfigName="Debug"/>
+      <Project Name="PassArgumentToBaseClassConstructors" ConfigName="Debug"/>
+      <Project Name="CopyMoveConstructorsAndOperator=WithDerivedClaases" ConfigName="Debug"/>
+      <Project Name="RedefiningBaseClassMethods" ConfigName="Debug"/>
+      <Project Name="MultipleInheritance" ConfigName="Debug"/>
+      <Project Name="Challenge" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release">
+      <Environment/>
+      <Project Name="What_Inheritance" ConfigName="Release"/>
+      <Project Name="Terminology_and_notation" ConfigName="Release"/>
+      <Project Name="InheritanceVsComposition" ConfigName="Release"/>
+      <Project Name="DerivingClassFromExistingClass" ConfigName="Release"/>
+      <Project Name="ProtectedMemberAndClassAccess" ConfigName="Release"/>
+      <Project Name="ConstructorsAndDecontructors" ConfigName="Release"/>
+      <Project Name="PassArgumentToBaseClassConstructors" ConfigName="Release"/>
+      <Project Name="CopyMoveConstructorsAndOperator=WithDerivedClaases" ConfigName="Release"/>
+      <Project Name="RedefiningBaseClassMethods" ConfigName="Release"/>
+      <Project Name="MultipleInheritance" ConfigName="Release"/>
+      <Project Name="Challenge" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
