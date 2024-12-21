@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="Section16_Polymorphism" Database="" Version="10000">
+  <Project Name="WhatPolymorphism" Path="WhatPolymorphism/WhatPolymorphism.project" Active="No"/>
+  <Project Name="UseBaseClassPointer" Path="UseBaseClassPointer/UseBaseClassPointer.project" Active="No"/>
+  <Project Name="VirtualFunction" Path="VirtualFunction/VirtualFunction.project" Active="No"/>
+  <Project Name="VirtualDestructors" Path="VirtualDestructors/VirtualDestructors.project" Active="No"/>
+  <Project Name="OverrideSpecifier" Path="OverrideSpecifier/OverrideSpecifier.project" Active="No"/>
+  <Project Name="FinalSpecifier" Path="FinalSpecifier/FinalSpecifier.project" Active="No"/>
+  <Project Name="BaseClassReference" Path="BaseClassReference/BaseClassReference.project" Active="No"/>
+  <Project Name="PureVirtualFuncionAndAbstractClass" Path="PureVirtualFuncionAndAbstractClass/PureVirtualFuncionAndAbstractClass.project" Active="No"/>
+  <Project Name="AbstractClassAsInterface" Path="AbstractClassAsInterface/AbstractClassAsInterface.project" Active="No"/>
+  <Project Name="Challenge" Path="Challenge/Challenge.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug">
+      <Environment/>
+      <Project Name="WhatPolymorphism" ConfigName="Debug"/>
+      <Project Name="UseBaseClassPointer" ConfigName="Debug"/>
+      <Project Name="VirtualFunction" ConfigName="Debug"/>
+      <Project Name="VirtualDestructors" ConfigName="Debug"/>
+      <Project Name="OverrideSpecifier" ConfigName="Debug"/>
+      <Project Name="FinalSpecifier" ConfigName="Debug"/>
+      <Project Name="BaseClassReference" ConfigName="Debug"/>
+      <Project Name="PureVirtualFuncionAndAbstractClass" ConfigName="Debug"/>
+      <Project Name="AbstractClassAsInterface" ConfigName="Debug"/>
+      <Project Name="Challenge" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release">
+      <Environment/>
+      <Project Name="WhatPolymorphism" ConfigName="Release"/>
+      <Project Name="UseBaseClassPointer" ConfigName="Release"/>
+      <Project Name="VirtualFunction" ConfigName="Release"/>
+      <Project Name="VirtualDestructors" ConfigName="Release"/>
+      <Project Name="OverrideSpecifier" ConfigName="Release"/>
+      <Project Name="FinalSpecifier" ConfigName="Release"/>
+      <Project Name="BaseClassReference" ConfigName="Release"/>
+      <Project Name="PureVirtualFuncionAndAbstractClass" ConfigName="Release"/>
+      <Project Name="AbstractClassAsInterface" ConfigName="Release"/>
+      <Project Name="Challenge" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>

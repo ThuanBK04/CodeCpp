@@ -1,0 +1,1 @@
+../build-Debug/PureVirtualFuncionAndAbstractClass/main.cpp.o   
